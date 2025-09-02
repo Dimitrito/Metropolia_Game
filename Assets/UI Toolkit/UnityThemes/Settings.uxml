@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="Settings.uss" />
+
+    <ui:VisualElement name="Root" class="menu-root">
+        <ui:Label text="SETTINGS" class="title" />
+
+        <ui:Label text="Master Volume" class="setting-label"/>
+        <ui:Slider name="VolumeSlider" low-value="0" high-value="1" value="0.5" />
+        <ui:Label name="VolumeValueLabel" text="50%" class="value-label"/>
+
+        <ui:Label text="Resolution" class="setting-label"/>
+        <ui:DropdownField name="ResolutionDropdown" choices="[]" value="" />
+        <ui:Label name="ResolutionValueLabel" text="" class="value-label"/>
+
+        <ui:Label text="Fullscreen" class="setting-label"/>
+        <ui:Toggle name="FullscreenToggle" text="Enabled" value="true" />
+
+        <ui:Button name="BackButton" text="Back" />
+    </ui:VisualElement>
+</ui:UXML>

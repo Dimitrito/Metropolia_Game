@@ -1,0 +1,93 @@
+.overlay-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 20, 0.95);
+}
+
+.upgrade-root {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    background-color: rgba(25, 25, 50, 0.95);
+    border-radius: 20px;
+}
+
+.upgrade-title {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: #b8a0ff;
+    margin-bottom: 30px;
+    -unity-text-align: middle-center;
+}
+
+.upgrade-parameters {
+    flex-direction: column;
+    width: 100%;
+}
+
+.parameter-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.parameter-name {
+    font-size: 18px;
+    color: #ffffff;
+    width: 120px;
+}
+
+.parameter-value {
+    font-size: 18px;
+    color: #ffe082;
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+}
+
+.level-up-button {
+    width: 140px;
+    height: 48px;
+    background-color: rgb(80, 200, 160);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.level-up-button.disabled {
+    background-color: rgb(60, 60, 80);
+    color: rgba(200, 200, 200, 0.5);
+}
+
+.close-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(120, 110, 100);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.delete-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(220, 50, 50);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 16px; 
+}

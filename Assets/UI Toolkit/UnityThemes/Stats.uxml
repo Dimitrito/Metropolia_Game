@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Stats.uss?fileID=7433441132597879392&amp;guid=093a1beeb333a1740abc91c1e07c3447&amp;type=3#Stats" />
+    <ui:VisualElement class="hud-root">
+        <ui:VisualElement class="level-panel">
+            <ui:Label text="Level 1" class="level-label" />
+            <ui:VisualElement class="progress-bar">
+                <ui:VisualElement class="progress-fill" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="resource-panel">
+            <ui:VisualElement class="coin-icon" />
+            <ui:Label text="0" class="coins-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

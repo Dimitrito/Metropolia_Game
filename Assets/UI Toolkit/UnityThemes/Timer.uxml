@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Timer.uss?fileID=7433441132597879392&amp;guid=625e64f87e43f8b4287828fc48fde94d&amp;type=3#Timer" />
+    <ui:VisualElement class="timer-root">
+        <ui:Label name="timerLabel" text="01:60" class="timer-text" />
+        <ui:Label name="taxLabel" text="-600" class="tax-text" />
+    </ui:VisualElement>
+</ui:UXML>

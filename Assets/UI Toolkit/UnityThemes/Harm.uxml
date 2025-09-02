@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Harm.uss?fileID=7433441132597879392&amp;guid=36887659428b35945a7f07d46876ec84&amp;type=3#Harm" />
+    <ui:VisualElement class="overlay-root">
+        <ui:VisualElement class="harm-root">
+            <ui:Label text="Damage to enemy building" class="harm-title" />
+            <ui:VisualElement class="harm-parameters">
+                <ui:VisualElement class="harm-row">
+                    <ui:Label text="Income:" class="harm-name" />
+                    <ui:Label name="incomeValue" text="0" class="harm-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="harm-row">
+                    <ui:Label text="Frequency:" class="harm-name" />
+                    <ui:Label name="frequencyValue" text="0" class="harm-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="harm-row">
+                    <ui:Label text="Protection:" class="harm-name" />
+                    <ui:Label name="protectionValue" text="0" class="harm-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="harm-buttons-row">
+                <ui:VisualElement class="button-with-price">
+                    <ui:Label name="harmPriceLabel" text="0" class="button-price" />
+                    <ui:Button text="Harm" name="harmButton" class="harm-button" />
+                </ui:VisualElement>
+                <ui:VisualElement class="button-with-price">
+                    <ui:Label name="demolishPriceLabel" text="0" class="button-price" />
+                    <ui:Button text="Demolish" name="demolishButton" class="demolish-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:Button text="Close" name="closeHarmButton" class="close-harm-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

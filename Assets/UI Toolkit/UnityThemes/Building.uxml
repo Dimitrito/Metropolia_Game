@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Building.uss?fileID=7433441132597879392&amp;guid=16c67987e6150f74ca7481272c7cc929&amp;type=3#Building" />
+    <ui:VisualElement class="overlay-root">
+        <ui:VisualElement class="upgrade-root">
+            <ui:Label text="Building improvement" class="upgrade-title" />
+            <ui:VisualElement class="upgrade-parameters">
+                <ui:VisualElement class="parameter-row">
+                    <ui:Label text="Income:" class="parameter-name" />
+                    <ui:Label name="incomeText" text="100 -&gt; 150" class="parameter-value" />
+                    <ui:Button name="incomeBtn" text="1 coin" class="level-up-button" />
+                </ui:VisualElement>
+                <ui:VisualElement class="parameter-row">
+                    <ui:Label text="Frequency:" class="parameter-name" />
+                    <ui:Label name="frequencyText" text="1.0 -&gt; 1.2" class="parameter-value" />
+                    <ui:Button name="frequencyBtn" text="1 coin" class="level-up-button" />
+                </ui:VisualElement>
+                <ui:VisualElement class="parameter-row">
+                    <ui:Label text="Protection:" class="parameter-name" />
+                    <ui:Label name="protectionText" text="5 -&gt; 7" class="parameter-value" />
+                    <ui:Button name="protectionBtn" text="1 coin" class="level-up-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button name="deleteBtn" text="Delete" class="delete-button" />
+            <ui:Button name="closeBtn" text="Close" class="close-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

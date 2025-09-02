@@ -1,0 +1,57 @@
+.hud-root {
+    flex-direction: column;
+    padding: 16px;     
+    width: 350px;     
+    align-items: flex-start;
+}
+
+.resource-panel {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px; 
+}
+
+.coin-icon {
+    width: 32px;       
+    height: 32px;      
+    background-color: rgb(255, 215, 0);
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.coins-label {
+    font-size: 28px;   
+    color: rgb(255, 255, 0);
+    -unity-font-style: bold;
+}
+
+.level-panel {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.level-label {
+    font-size: 24px;   
+    color: rgb(255, 255, 255);
+    margin-bottom: 6px;
+    -unity-font-style: bold;
+}
+
+
+.progress-bar {
+    height: 16px;          
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 30%;           
+    background-color: rgb(76, 175, 80);
+    border-radius: 8px;
+}

@@ -1,0 +1,50 @@
+.overlay-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 20, 0.95);
+}
+
+.guide-root {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 500px;
+    background-color: rgba(25, 25, 50, 0.95);
+    border-radius: 20px;
+}
+
+.guide-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: #b8a0ff;
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+}
+
+.guide-text {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;       
+    margin-bottom: 30px;
+    width: 100%;                 
+    unity-text-align: middle-center;
+    white-space: normal;      
+    word-wrap: break-word;      
+}
+
+.guide-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(80, 200, 160);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+}

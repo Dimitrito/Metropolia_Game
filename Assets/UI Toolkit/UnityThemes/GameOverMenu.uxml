@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/GameOverMenu.uss?fileID=7433441132597879392&amp;guid=ebcaf5f3c5dd4f54f855053c5d04db96&amp;type=3#GameOverMenu" />
+    <ui:VisualElement name="Root" class="gameover-root">
+        <ui:Label text="Game Over" class="gameover-title" />
+        <ui:Button name="MenuButton" text="Menu" class="gameover-button" />
+    </ui:VisualElement>
+</ui:UXML>

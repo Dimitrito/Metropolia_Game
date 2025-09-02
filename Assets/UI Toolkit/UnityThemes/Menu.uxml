@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
+    <ui:Style src="Menu.uss" />
+    
+    <ui:VisualElement name="Root" class="menu-root">
+        <ui:Label text="METROPOLIA" class="title" />
+        <ui:Button name="PlayButton" text="Play" />
+        <ui:Button name="LoadButton" text="Load" />
+        <ui:Button name="SettingsButton" text="Settings" />
+        <ui:Button name="QuitButton" text="Quit" />
+    </ui:VisualElement>
+</ui:UXML>

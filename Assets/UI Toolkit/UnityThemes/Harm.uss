@@ -1,0 +1,109 @@
+.overlay-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    background-color: rgba(10, 10, 20, 0.95); 
+}
+
+.harm-root {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    background-color: rgba(50, 15, 20, 0.95); 
+    border-radius: 20px;
+}
+
+.harm-title {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: #ff8a80;
+    margin-bottom: 30px;
+    -unity-text-align: middle-center;
+}
+
+.harm-parameters {
+    flex-direction: column;
+    width: 100%;
+}
+
+.harm-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.harm-name {
+    font-size: 18px;
+    color: #ffffff;
+    width: 120px;
+}
+
+.harm-value {
+    font-size: 18px;
+    color: #ffcc80;
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+}
+
+.harm-buttons-row {
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.harm-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(240, 160, 60); 
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.demolish-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(200, 40, 40);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 12px; 
+}
+
+.close-harm-button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(100, 90, 90);
+    color: white;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.button-with-price {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.button-price {
+    font-size: 16px;
+    color: #ffd180; 
+    margin-top: 4px;
+}

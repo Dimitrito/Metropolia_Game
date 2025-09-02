@@ -1,0 +1,80 @@
+.menu-root {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 206, 235);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.title {
+    font-size: 36px; 
+    color: white;
+    -unity-font-style: bold;
+    margin-bottom: 20px;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: black;
+    -unity-text-align: middle-center;
+}
+
+.setting-label {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.value-label {
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+Slider {
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+Toggle {
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+Button {
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+}
+#ResolutionDropdown {
+    width: 50%;
+    max-width: 400px;
+    min-width: 150px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    padding-left: 8px;
+}

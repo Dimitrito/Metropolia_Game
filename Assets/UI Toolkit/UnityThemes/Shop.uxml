@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Shop.uss?fileID=7433441132597879392&amp;guid=01b75bba185215344968f610ac10a9d3&amp;type=3#Shop" />
+    <ui:VisualElement class="shop-root">
+        <ui:VisualElement class="shops-container">
+            <ui:VisualElement class="shop-card">
+                <ui:Label text="Bar" class="shop-title" />
+                <ui:VisualElement name="BarImage" class="shop-image" />
+                <ui:Label text="Price: 100" class="shop-price" />
+                <ui:Button name="Button0" text="Buy building" class="buy-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="shop-card">
+                <ui:Label text="Candy shop" class="shop-title" />
+                <ui:VisualElement name="CandyImage" class="shop-image" />
+                <ui:Label text="Price: 200" class="shop-price" />
+                <ui:Button name="Button1" text="Buy building" class="buy-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="shop-card">
+                <ui:Label text="Pizza place" class="shop-title" />
+                <ui:VisualElement name="PizzaImage" class="shop-image" />
+                <ui:Label text="Price: 300" class="shop-price" />
+                <ui:Button name="Button2" text="Buy building" class="buy-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="shop-card">
+                <ui:Label text="Supermarket" class="shop-title" />
+                <ui:VisualElement name="MarketImage" class="shop-image" />
+                <ui:Label text="Price: 400" class="shop-price" />
+                <ui:Button name="Button3" text="Buy building" class="buy-button" />
+            </ui:VisualElement>
+            <ui:VisualElement class="shop-card">
+                <ui:Label text="Casino" class="shop-title" />
+                <ui:VisualElement name="CasinoImage" class="shop-image" />
+                <ui:Label text="Price: 500" class="shop-price" />
+                <ui:Button name="Button4" text="Buy building" class="buy-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="Level up" class="level-up-button" />
+    </ui:VisualElement>
+</ui:UXML>

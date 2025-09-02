@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="Saves.uss" />
+
+    <ui:VisualElement name="Root" class="menu-root">
+        <ui:Label text="LOAD GAME" class="title" />
+
+        <ui:ScrollView name="SavesScrollView" class="saves-scroll">
+        </ui:ScrollView>
+
+        <ui:VisualElement class="buttons-row">
+            <ui:Button name="LoadButton" class="button-left" text="Load" />
+            <ui:Button name="BackButton" text="Back" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

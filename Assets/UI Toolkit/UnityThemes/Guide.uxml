@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Guide.uss?fileID=7433441132597879392&amp;guid=c6445cdffdadc914bbf41fd46641759d&amp;type=3#Guide" />
+    <ui:VisualElement name="overlay" class="overlay-root">
+        <ui:VisualElement class="guide-root">
+            <ui:Label text="Guide" class="guide-title" />
+            <ui:Label name="textPlace" text="Here you can write your explanation text for the guide. It will appear centered and easy to read." class="guide-text" />
+            <ui:Button name="guide-button" text="Understood" class="guide-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
